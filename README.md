@@ -1,1 +1,1 @@
-# ecofood_BPA_P2.C2
+este es un proyecto ecofood en donde se utilizara html para crear el landing page de la pagina web junto con el uso de css para la creacion de los diseños.

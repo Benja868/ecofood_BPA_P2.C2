@@ -1,0 +1,119 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6d5b8; /* Color piel */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #2c5e1a;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p {
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #f4f4f4;
+    color: #2c5e1a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #2c5e1a;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+/* Botones de inicio de sesión y registro */
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.auth-buttons button {
+    background-color: #2c5e1a;
+    color: white;
+    border: 2px solid #2c5e1a;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.auth-buttons button:hover {
+    background-color: white;
+    color: #2c5e1a;
+}
+
+/* Secciones */
+.section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajuste de imágenes */
+#quienes-somos img {
+    width: 60%;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.info-block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+
+.info-block img {
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.stats img {
+    width: 50%;
+    max-width: 300px;
+}
+
+/* Imagen final */
+.footer-img {
+    width: 100px;
+    margin-top: 10px;
+    float: left;
+}
